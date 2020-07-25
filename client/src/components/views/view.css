@@ -1,0 +1,66 @@
+.registerHeading {
+  color: rgb(27, 13, 4);
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 1.1rem;
+}
+.app {
+  padding: 0% 10% 0%;
+}
+
+Form.item label {
+  text-align: left;
+}
+
+.checkboxLabel {
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 1rem;
+  padding-right: 18px;
+  padding-left: 8px;
+}
+.categoryLabel {
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.information-sec {
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.1rem;
+  display: "flex";
+  text-align: center;
+  background-color: #4a3f35;
+  color: rgb(228, 222, 222);
+  padding: 0% 7%;
+}
+
+.info-text {
+  padding-top: 2%;
+}
+.uploadFromheading {
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 2rem;
+}
+.uploadFromText {
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+/* Landing Page: */
+.menuHeading {
+  color: #900c3f;
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.cardText {
+  color: rgb(27, 13, 4);
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.3rem;
+}
+
+.loadMoreBtn {
+  display: flex;
+  justify-content: center;
+}

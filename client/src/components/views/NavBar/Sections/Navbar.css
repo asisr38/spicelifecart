@@ -1,22 +1,25 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
 .menu {
   padding: 0 20px;
-  border-bottom: solid 1px #e8e8e8;
+  border-bottom: solid 1px #ffc251;
   overflow: auto;
-  box-shadow: 0 0 30px #f3f1f1;
-  background-color: white;
+  box-shadow: 0 0 30px #ffdd6d;
+  background-color: rgb(255, 255, 255);
 }
 
 .menu__logo {
-  width: 150px;
+  width: 180px;
   float: left;
 }
 
 .menu__logo a {
+  font-family: "IM Fell Great Primer", serif;
+  color: rgb(245, 168, 24);
   display: inline-block;
-  font-size: 20px;
-  padding: 19px 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 3% 5%;
 }
 
 .menu__container .ant-menu-item {
@@ -50,7 +53,7 @@
   padding: 6px;
   margin-top: 8px;
   display: none !important; /* use of important to overwrite ant-btn */
-  background: #3e91f7;
+  background: #fab129;
 }
 
 .menu_drawer .ant-drawer-body {
@@ -62,7 +65,7 @@
   padding: 14px 24px !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   .menu__mobile-button {
     display: inline-block !important;
   }
@@ -84,4 +87,12 @@
   .menu__logo a {
     padding: 10px 20px;
   }
+}
+
+/* Left and Right Menu */
+
+.menuFont {
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
